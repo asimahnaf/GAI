@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace class_consept
+{
+    public class Program3
+    {
+        public string b;
+        public Program3()
+        {
+            Console.WriteLine("Welcome to Bangladesh");
+        }
+        public static void Main()
+        {
+            Program3 p = new Program3();
+            Program3 p2 = new Program3();
+            Console.ReadKey();
+        }
+    }

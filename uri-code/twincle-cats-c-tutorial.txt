@@ -1,0 +1,248 @@
+1- compilor name ;
+2- cmd commend;
+3- 
+
+01 - number...............chack a charecter........
+
+#include <stdio.h> 
+
+int main(){ 
+    
+    char ch;
+    printf("inter your character- ");
+    scanf("%c", &ch);
+
+    if(ch >= 48 && ch <= 57){
+        printf("%c is a Number\n", ch);
+    }else if(ch >= 64 && ch <= 90){
+        printf("%c is a upper case letter\n", ch);
+
+    }else if(ch >= 97 && ch <= 122){
+        printf("%c is a lower case letter\n", ch);
+    }else{
+        printf("special cherecter\n");
+    }
+    
+    
+    return 0;
+    
+}
+
+02 - number.............chack a leap year......
+
+#include <stdio.h> 
+
+int main(){ 
+    
+    int year;
+    printf("print your year\n");
+    scanf("%d", &year);
+    int isleapyear = 0;
+
+    if(year%4 == 0 ){
+        if(year%100 == 0){
+            if(year%400 == 0){
+                isleapyear = 1;
+            }else{
+                isleapyear = 0;
+            }
+          
+        }else{
+            isleapyear = 1;
+        }
+    }else{
+        isleapyear = 0;
+    }
+    if(isleapyear){
+
+        printf("%d is a leap year", year);
+    }else{
+        printf("%d is not a leap year", year);
+    }
+    
+    
+    return 0;
+    
+}
+03 -number.......short cut leap year code.....................
+
+#include <stdio.h> 
+
+int main(){ 
+    
+    int year;
+    printf("print your year  : ");
+    scanf("%d", &year);
+    int isleapyear = 0;
+
+
+    if(((year%4 == 0)&& (year%100 != 0)) || (year%4 == 0)){
+       isleapyear = 1;
+   }
+
+    if(isleapyear){
+
+        printf("%d is a leap year", year);
+    }else{
+        printf("%d is not a leap year", year);
+    }
+    
+    
+    return 0;
+    
+}
+
+....04  -number......static-game................
+
+#include <stdio.h> 
+
+
+int main(){ 
+
+    int picked_number, given_number;
+   
+    picked_number = 9;
+
+    printf("inter your chusen number - ");
+    scanf("%d", &given_number);
+
+    if(picked_number==given_number){
+
+        printf("you are win!!!\n");
+    }else{
+
+        printf("you are loss!!!  pick number is %d\n", picked_number);
+    }
+
+    
+
+    
+    
+    
+    return 0;
+    
+}
+
+............05- random number .....function use.......
+
+#include <stdio.h> 
+#include <stdlib.h>
+#include <time.h>
+
+int main(){ 
+
+    int picked_number, given_number;
+    time_t t;
+
+    srand((unsigned)time(&t));
+    picked_number = rand() % 10 + 1;
+
+    printf("inter your chusen number - ");
+    scanf("%d", &given_number);
+
+    if(picked_number==given_number){
+
+        printf("you are win!!!\n");
+    }else{
+
+        printf("you are loss!!!  pick number is %d\n", picked_number);
+    }
+
+    
+    return 0;
+
+
+
+
+..........Number 06.....::::::::::::::::::::Use The While Loop::::::::::::::::::::::::::
+
+int main(){ 
+
+   int a,b;
+   char ch = 'c';
+
+   
+
+   while(ch != 'q'){
+
+       printf("Enter Two intger Number: ");
+       scanf("%d %d", &a, &b);
+       printf("Result = %d\n", a + b);
+       printf("type c to run agin, type q to quite");
+       scanf(" %c", &ch);
+   }
+    
+    return 0;
+
+.....06 Number .....Unlimited Try Gassing game.......
+
+#include <stdio.h> 
+#include <stdbool.h>
+#include <stdlib.h>
+#include <time.h>
+
+
+int main() { 
+
+   time_t t;
+   srand((unsigned)time(&t));
+
+
+   int choosen_number;
+   int lucke_number = rand() % 10 + 1;
+
+   while (true)
+   {
+       printf("Gase The Lucky Number Like 1 2 3 etc\n");
+       scanf("%d", &choosen_number);
+
+       if(lucke_number == choosen_number) {
+           printf("u r win");
+
+           break;
+       }
+
+   }
+
+....number 07....gassing game ......:::::
+
+#include <stdio.h> 
+#include <stdbool.h>
+#include <stdlib.h>
+#include <time.h>
+
+
+int main() { 
+
+   time_t t;
+   srand((unsigned)time(&t));
+
+
+   int choosen_number, chance = 3;
+   bool is_loss = true;
+   int lucke_number = rand() % 10 + 1;
+
+   while (chance > 0)
+   {
+       printf("Gase The Lucky Number Like 1 2 3 etc (%d): ", chance);
+       scanf("%d", &choosen_number);
+
+       if(lucke_number == choosen_number) {
+           printf("u r win");
+
+           is_loss = false;
+
+           break;
+       }
+
+       chance--; 
+
+   }
+        if(is_loss){
+
+           printf("you are loss. The lucky number is (%d)\n", lucke_number);
+       }
+   
+    return 0;
+    
+}

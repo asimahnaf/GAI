@@ -1,0 +1,221 @@
+
+geraf academi
+
+example: 01;/////////////////////
+#include <stdio.h>
+int max(int num1, int num2)
+{
+    int result;
+    if (num1>num2){
+        result = num1;
+    } 
+    else{
+        result = num2;
+    }
+}
+
+int main(){
+    printf("%d", max(2,10));
+    return 0;
+}
+
+
+exmple: 02; ////////////////////////////
+
+#include <stdio.h>
+
+
+    int main(){
+    
+    double num1, num2;
+    char op;
+    
+    printf("number 1: ");
+    scanf("%lf", &num1);
+    
+    printf("operator: ");
+    scanf(" %c", &op);
+    
+    printf("number 2: ");
+    scanf("%lf", &num2);
+    
+    if(op == '+'){
+        printf("%lf", num1+num2);
+    }
+    else if (op == '-'){
+        printf("%lf", num1-num2);
+    }
+    else if(op == '/'){
+        printf("%lf", num1/num2);
+    }
+    else if(op == '*'){
+        printf("%lf", num1*num2);
+    }
+    else{
+        printf("invalid number");
+    }
+    return 0;
+}
+
+exmple: 03; ////////////////////////////
+
+
+#include <stdio.h>
+
+int main()
+{
+    char grade;
+    scanf(" %c", &grade);
+    switch (grade){
+        case 'a':
+        printf("you are the best");
+        break;
+        case 'b':
+        printf("u are lucky");
+        break;
+        case 'c':
+        printf("this is poor");
+        break;
+        case 'd':
+        printf("this is very poor");
+        break;
+        case 'f':
+        printf("you are fale");
+        break;
+        default :
+        printf("invalid gread");
+    }
+
+    return 0;
+}
+example: 04;...while loop//////////////////
+
+#include <stdio.h>
+
+int main()
+{
+    int index = 1;
+    while(index <= 5){
+        printf("%d\n", index);
+        index = index + 1;
+        
+    }
+
+    return 0;
+}
+example: 05;......do ...while loop/////////////////
+
+#include <stdio.h>
+
+int main()
+{
+    int index = 1;
+    do {
+        printf("%d\n", index);
+        index++ ;
+        
+    }while(index <= 5);
+
+    return 0;
+}
+
+example: 06;///////..........gueassing game.....
+
+
+#include <stdio.h>
+int main()
+{
+    int secretnumber=5;
+    int guess;
+    int guesscount = 0;
+    int guesslimit = 3;
+    int outofguess = 0;
+    while(guess!=secretnumber && outofguess == 0) {
+        
+        if( guesscount < guesslimit ){
+            printf("enter the number: ");
+            scanf("%d", &guess);
+            guesscount++;
+            
+        }else{
+            
+            outofguess = 1;
+        }
+    } 
+    if (outofguess == 1){
+        
+            printf("out of guess");
+    }else{
+        printf("you win");
+    }
+
+    return 0;
+}
+
+
+example: 07;////////////////....................while loop/////////
+
+int i = 1;
+    while(i <= 5){
+        printf("%d  \n", i);
+        i++;
+    }
+example : 08; ////////,,,,,,,,,,,for loop;;;;
+
+int i;
+    for(i = 1; i <= 5; i++){
+        printf("%d\n", i);
+    }
+
+example :09 array and for loop////////////////////////...............
+
+int luckynumber[] = {10, 20, 30, 40, 50, 60};
+
+    int i;
+    for(i = 0; i<=5; i++){
+        printf("%d\n", luckynumber[i]);
+    }
+
+example :10 2D array ............/////////////
+
+ int nums [3][2] = {
+
+                {1, 2},
+                {3, 4},
+                {5, 6},
+                };
+
+ int i, j;
+
+ for(i = 0; i < 3; i++){
+
+        for(j = 0; j < 2; j++){
+
+            printf("%d,", nums[i][j]);
+        }
+        printf("\n");
+
+
+
+
+ }
+
+
+example: 11..........memory addressess
+
+#include <stdio.h>
+int main()
+{
+
+int age = 30;
+double gpa = 2.6;
+char grade = 'A';
+printf("age: %p\ngpa: %p\ngrade: %p", &age, &gpa, &grade);
+
+
+
+    return 0;
+}
+
+
+

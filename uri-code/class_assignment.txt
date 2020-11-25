@@ -1,0 +1,23 @@
+static void Main(string[] args)
+        {
+            int a =1;
+            int b =10;
+            Program call = new Program();
+            call.mathode(a, b);
+            Console.ReadLine();
+
+            
+        }
+
+        public void mathode(int a, int b) 
+        {
+            a = 1;
+            do
+            {
+                Console.WriteLine(a);
+                a++;
+            }
+            while (a<=b);
+
+            
+        }
