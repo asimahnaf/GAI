@@ -1,0 +1,88 @@
+using System;
+
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace if_else_statimant
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int num1 = 200;
+            int num2 = 6;
+            long total;
+            total = num1 * num2;
+            Console.WriteLine(total);
+            int a = 12;
+            if (a >= 10) { Console.WriteLine("a is a large number"); }
+            else { Console.WriteLine("a is smaller then 10"); }
+                
+                Console.ReadKey();
+       
+
+        }
+ 
+    }
+}
+*********************************************************************************************
+Leap year  
+using System;
+
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace if_else_statimant
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = Convert.ToInt32(Console.ReadLine());
+            if (a%4==0 && a%100!=0  ||  a%400==0) { Console.WriteLine("leap year"); }
+                Console.ReadKey();
+       
+
+        }
+ 
+    }
+}
+#####################################################################################################
+using System;
+
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace if_else_statimant
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b = 4;
+            int c,d;
+            if (a%4==0 && a%100!=0  ||  a%400==0 ) 
+            { 
+                Console.WriteLine("leap year"); 
+            }
+            else 
+            { 
+                c=a % 4;
+               d= Math.Abs(b - c);
+                Console.WriteLine("the next leao year at "+(a+d));
+            }
+            
+                Console.ReadKey();
+       
+
+        }
+ 
+    }
+}

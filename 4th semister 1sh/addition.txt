@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a, b ,c;
+            Console.WriteLine("add your 1's number");
+            a = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("add your 2'number");
+            b = Convert.ToInt32(Console.ReadLine());
+            c = a + b;
+            Console.WriteLine("a addition b {0}", c);
+            Console.ReadKey();
+        }
+    }
+}

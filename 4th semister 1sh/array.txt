@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace array
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            /*   //Declaring single dimensional array
+               int[] Books = new int[5];
+               Books[0] = 10;
+               Books[1] = 20;
+               Books[2] = 30;
+               Books[3] = 40;
+               Books[4] = 50;
+
+               Console.WriteLine("All the element of Books array is:\n\n");
+
+             
+
+            Console.ReadKey();
+        }
+    }
+}

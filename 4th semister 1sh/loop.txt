@@ -1,0 +1,26 @@
+For loop :
+		 for(initialization;text-condition;increment or decrement)
+		 {
+		      statement(s);
+}
+While Loop:
+		while(condition)
+		{
+		     statement(s) ;
+ 		}
+Do While Loop:
+		do
+{
+		     statement(s);
+}
+while(condition);
+Nested Loop:
+for(initializatio;text-condition;increment or decrement)
+ {
+    for(initialization;text-condition;increment or decrement )
+       {
+			statement(s);
+       }
+	statement(s);
+  } 
+

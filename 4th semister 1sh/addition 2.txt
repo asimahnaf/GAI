@@ -1,0 +1,5 @@
+  int num1 = 200;
+            int num2 = 6;
+            long total;
+            total = num1 * num2;
+            Console.WriteLine(total);

@@ -1,0 +1,17 @@
+
+
+             int box = 0;
+             int i = 1;
+             while (i <= 10)
+             {
+                box +=i;
+                 Console.Write( i + " " );
+                
+                 i++ ;
+                 
+             }
+
+            Console.WriteLine("= "+box );
+             
+           
+            Console.ReadKey();
