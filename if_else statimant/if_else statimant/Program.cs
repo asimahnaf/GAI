@@ -1,0 +1,44 @@
+﻿using System;
+
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace if_else_statimant
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int i;
+            for (i = 0; i < 10; i = i + 1)
+            {
+                int a = Convert.ToInt32(Console.ReadLine());
+                Leap_or_not(a);
+                
+            }
+        }
+
+
+        static void Leap_or_not(int year)
+        {
+            int a = year;
+            int b = 4;
+            int c, d;
+            if (a % 4 == 0 && a % 100 != 0 || a % 400 == 0)
+            {
+                Console.WriteLine("leap year");
+            }
+            else
+            {
+                c = a % 4;
+                d = Math.Abs(b - c);
+                Console.WriteLine("the next leao year at " + (a + d));
+
+            }
+
+        }
+    }
+
+}
