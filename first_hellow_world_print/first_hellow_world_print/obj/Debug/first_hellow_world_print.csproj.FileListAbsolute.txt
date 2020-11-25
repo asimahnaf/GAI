@@ -1,0 +1,9 @@
+C:\Users\Ahnaf Arshad\Desktop\college project\4th semister 1sh\c#_class_4th\first_hellow_world_print\first_hellow_world_print\bin\Debug\first_hellow_world_print.exe.config
+C:\Users\Ahnaf Arshad\Desktop\college project\4th semister 1sh\c#_class_4th\first_hellow_world_print\first_hellow_world_print\bin\Debug\first_hellow_world_print.exe
+C:\Users\Ahnaf Arshad\Desktop\college project\4th semister 1sh\c#_class_4th\first_hellow_world_print\first_hellow_world_print\bin\Debug\first_hellow_world_print.pdb
+C:\Users\Ahnaf Arshad\Desktop\college project\4th semister 1sh\c#_class_4th\first_hellow_world_print\first_hellow_world_print\obj\Debug\first_hellow_world_print.csprojAssemblyReference.cache
+C:\Users\Ahnaf Arshad\Desktop\college project\4th semister 1sh\c#_class_4th\first_hellow_world_print\first_hellow_world_print\obj\Debug\first_hellow_world_print.Form1.resources
+C:\Users\Ahnaf Arshad\Desktop\college project\4th semister 1sh\c#_class_4th\first_hellow_world_print\first_hellow_world_print\obj\Debug\first_hellow_world_print.Properties.Resources.resources
+C:\Users\Ahnaf Arshad\Desktop\college project\4th semister 1sh\c#_class_4th\first_hellow_world_print\first_hellow_world_print\obj\Debug\first_hellow_world_print.csproj.GenerateResource.cache
+C:\Users\Ahnaf Arshad\Desktop\college project\4th semister 1sh\c#_class_4th\first_hellow_world_print\first_hellow_world_print\obj\Debug\first_hellow_world_print.exe
+C:\Users\Ahnaf Arshad\Desktop\college project\4th semister 1sh\c#_class_4th\first_hellow_world_print\first_hellow_world_print\obj\Debug\first_hellow_world_print.pdb
