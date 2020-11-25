@@ -1,0 +1,7 @@
+C:\Users\Ahnaf Arshad\Desktop\c#_new_4th\constructor\structure\bin\Debug\structure.exe.config
+C:\Users\Ahnaf Arshad\Desktop\c#_new_4th\constructor\structure\bin\Debug\structure.exe
+C:\Users\Ahnaf Arshad\Desktop\c#_new_4th\constructor\structure\bin\Debug\structure.pdb
+C:\Users\Ahnaf Arshad\Desktop\c#_new_4th\constructor\structure\obj\Debug\structure.csproj.CoreCompileInputs.cache
+C:\Users\Ahnaf Arshad\Desktop\c#_new_4th\constructor\structure\obj\Debug\structure.exe
+C:\Users\Ahnaf Arshad\Desktop\c#_new_4th\constructor\structure\obj\Debug\structure.pdb
+C:\Users\Ahnaf Arshad\Desktop\c#_new_4th\constructor\structure\obj\Debug\structure.csprojAssemblyReference.cache
