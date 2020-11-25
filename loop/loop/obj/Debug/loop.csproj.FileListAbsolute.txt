@@ -1,0 +1,7 @@
+C:\Users\Ahnaf Arshad\Desktop\college project\4th semister 1sh\c#_class_4th\loop\loop\bin\Debug\loop.exe.config
+C:\Users\Ahnaf Arshad\Desktop\college project\4th semister 1sh\c#_class_4th\loop\loop\bin\Debug\loop.exe
+C:\Users\Ahnaf Arshad\Desktop\college project\4th semister 1sh\c#_class_4th\loop\loop\bin\Debug\loop.pdb
+C:\Users\Ahnaf Arshad\Desktop\college project\4th semister 1sh\c#_class_4th\loop\loop\obj\Debug\loop.csprojAssemblyReference.cache
+C:\Users\Ahnaf Arshad\Desktop\college project\4th semister 1sh\c#_class_4th\loop\loop\obj\Debug\loop.csproj.CoreCompileInputs.cache
+C:\Users\Ahnaf Arshad\Desktop\college project\4th semister 1sh\c#_class_4th\loop\loop\obj\Debug\loop.exe
+C:\Users\Ahnaf Arshad\Desktop\college project\4th semister 1sh\c#_class_4th\loop\loop\obj\Debug\loop.pdb
