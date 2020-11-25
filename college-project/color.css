@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    color: white;
+    font-family: sans-serif; 
+    background: skyblue; 
+    background:   auto center no-repeat;   
+}
+
+
+
+
+/*head .........................................................................................*/
+/*head .........................................................................................*/
+/*head .........................................................................................*/
+/*head .........................................................................................*/
+/*head .........................................................................................*/
+.logo img{
+    height: 60px;
+    width: 60px;
+}
+.top
+{
+    text-align: center;
+    background-color: rgb(43, 100, 122); 
+    display:list-item;
+
+}
+.top ul{
+    display: inline-flex;
+    list-style: none;
+}
+.top ul li{
+    width: 194px;
+    margin: 0px;
+    padding: 20px;
+}
+.top ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+.menu-bar
+{
+    border: 0px solid;
+    padding: 10px;
+    margin: 0px;
+    background: top;
+    background-color: transparent;
+    text-align: center;
+    box-shadow: 1px 1px 10px 2px #333;
+}
+.menu-bar ul
+{
+    
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu-bar ul li
+{
+    width: 194px;
+    margin: 0px;
+    padding: 10px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+} 
+.activ, .menu-bar ul li:hover
+{
+    background-color: rgb(43, 100, 122);
+    border-radius: 3px;
+
+}
+.menu-bar  .fa
+{
+    margin-right: 0px;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background:skyblue;
+    margin-top:10px;
+    padding:18px;
+    margin-left: 0;
+    
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 20px;
+   
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    width: 100px;
+    padding: 10px;
+    border-bottom: 1px dotted #ffffff;
+    background-color: transparent;
+    border-radius: 0px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 05px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+width: 100px;
+padding: 10px;
+border: 0px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li :last-child
+{
+    width: 50px;
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: white;
+}
+.marque {
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+/*main ......................................................................................................*/
+/*main ......................................................................................................*/
+/*main ......................................................................................................*/
+.main
+{
+    margin: 0px;
+    padding:0px;
+    border: rgb(43, 100, 122);
+}
+.main .img img{
+    height: 400px;
+    width: 100%;
+    border: 2px thick  black;
+    box-shadow: 1px 1px 10px 2px #333; 
+}
+.sub-main
+{
+    
+    padding: 10px;
+    background-color: skyblue;
+    display: flex;  
+}
+.section1
+{
+    color: navy;
+    padding: 15px 0px;
+    box-shadow: 1px 1px 10px 2px;
+    text-align: center;
+    margin:5px 5px;
+    background: rgb(189,195,199);
+    background: linear-gradient(90deg, rgba(116,235,213,1) 0%, rgba(172,182,229,1) 100%);
+    flex: 20;
+    border: 5px rgb(43, 100, 122) solid;
+    box-shadow: 1px 1px 10px 2px #333;
+}
+.section1 p{
+    padding: 20px;
+}
+.kaka{
+    padding: 15px 0px;
+    background: rgb(57, 136, 201);
+}
+.section-2
+{
+    display: grid;
+    margin:5px 5px;
+    background: none;
+    flex: 10;
+    box-shadow: 1px 1px 10px 2px #333;
+}
+
+.notish-board-1
+{
+    color: white;
+    height: 600px;
+    border: 1px solid #333 ;
+    text-align: center;
+   margin-bottom: 0;
+   grid: 10px;
+   background: rgb(116,235,213);
+   background: linear-gradient(90deg, rgba(116,235,213,1) 0%, rgba(172,182,229,1) 100%);
+}
+h1{
+    color: white;
+    text-align: center;
+    background-color: rgb(57, 136, 201);
+    
+}
+.cointent{
+    color: black;
+    width: auto;
+    height: auto;
+    margin: 20px auto;
+    box-shadow: 1px 1px 10px 2px #333;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.header{
+    background-color:rgb(57, 136, 201);
+    padding: 15px 0px ;
+}
+.moving{
+    height:  500px;
+    padding: 2px ;
+    text-align: center;
+}
+.for{
+    text-align: center;
+    padding: 4px;
+    border-bottom: 1px solid;
+}
+.notish-board-2
+{  
+    height: 400px;
+    margin-top: 10;
+    border: 1px solid black;
+    margin-top: 5px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px 2px #333;
+}
+video{
+    height: 200px;
+    width: auto;
+    position: absolute;
+    object-fit: cover;
+    box-shadow: 1px 1px 10px 2px #333;
+}
+
+
+
+
+
+
+ /*footer ...................................................................................*/
+ /*footer ...................................................................................*/
+ /*footer ...................................................................................*/
+ /*footer ...................................................................................*/
+.footer{
+    text-align: left;
+    color: black; 
+    height: 100px; 
+    position: relative; 
+    box-shadow: 1px 1px 10px 2px #333; 
+}
+.footer .footer-bottom{
+    background: rgb(burlywood);
+    color:gray;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;   
+}
+
+
+
+    
+
