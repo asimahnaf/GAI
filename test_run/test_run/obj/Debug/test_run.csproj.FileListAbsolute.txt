@@ -1,0 +1,7 @@
+C:\Users\Ahnaf Arshad\Desktop\college project\4th semister 1sh\c#_class_4th\test_run\test_run\bin\Debug\test_run.exe.config
+C:\Users\Ahnaf Arshad\Desktop\college project\4th semister 1sh\c#_class_4th\test_run\test_run\bin\Debug\test_run.exe
+C:\Users\Ahnaf Arshad\Desktop\college project\4th semister 1sh\c#_class_4th\test_run\test_run\bin\Debug\test_run.pdb
+C:\Users\Ahnaf Arshad\Desktop\college project\4th semister 1sh\c#_class_4th\test_run\test_run\obj\Debug\test_run.csprojAssemblyReference.cache
+C:\Users\Ahnaf Arshad\Desktop\college project\4th semister 1sh\c#_class_4th\test_run\test_run\obj\Debug\test_run.csproj.CoreCompileInputs.cache
+C:\Users\Ahnaf Arshad\Desktop\college project\4th semister 1sh\c#_class_4th\test_run\test_run\obj\Debug\test_run.exe
+C:\Users\Ahnaf Arshad\Desktop\college project\4th semister 1sh\c#_class_4th\test_run\test_run\obj\Debug\test_run.pdb
